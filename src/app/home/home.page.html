@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu" autoHide="false" color="light"></ion-menu-button>
+    </ion-buttons>
+    <ion-title slot="end">
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-card>
+      <img alt="Silhouette of mountains" src="assets/imgs/bookingfutsal.jpg" />
+      <ion-card-header>
+        <ion-button fill="solid" expand="block" routerLink="/futsal">
+          Futsal
+        </ion-button>
+      </ion-card-header>
+    </ion-card>
+    <ion-card>
+      <img alt="Silhouette of mountains" src="assets/imgs/bookingbasket.png" />
+      <ion-card-header>
+        <ion-button fill="solid" expand="block" routerLink="/basket">Basket</ion-button>
+      </ion-card-header>
+    </ion-card>
+    <ion-card>
+      <img alt="Silhouette of mountains" src="assets/imgs/bookingbilliard.jpg" />
+      <ion-card-header>
+        <ion-button fill="solid" expand="block" routerLink="/billiard">Billiard</ion-button>
+      </ion-card-header>
+    </ion-card>
+  </ion-list>
+</ion-content>

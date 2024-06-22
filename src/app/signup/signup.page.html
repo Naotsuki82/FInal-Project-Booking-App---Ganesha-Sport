@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="signup-content">
+  <div class="signup-form-container">
+    <ion-list>
+      <ion-item class="custom-item">
+        <ion-icon name="accessibility-outline" slot="start"></ion-icon>
+        <ion-label position="floating">Nama</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item class="custom-item">
+        <ion-icon name="accessibility-outline" slot="start"></ion-icon>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item class="custom-item">
+        <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <ion-button fill="solid" expand="block" color="primary" class="custom-button" routerLink="/login">Daftar</ion-button>
+      <ion-button fill="clear" expand="block" color="medium" routerLink="/login" class="custom-button">Kembali</ion-button>
+    </ion-list>
+  </div>
+</ion-content>
